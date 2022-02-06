@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+
+*{
+  color: black;
+  font-family: 'Uchen', serif;
+  background-color: #F9F5EB;
+}
+
+.center {
+  margin: auto;
+  width: fit-content;
+}
+
+#time{
+  font-size: 10rem;
+}
+
+#country{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+  margin-top: -90px;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 672px) {
+
+  #time {
+    font-size: 4rem;
+  }
+
+  #country {
+    font-size: 1rem;
+    margin-top: -25px;
+  }
+
+}
